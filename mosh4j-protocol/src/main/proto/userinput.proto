@@ -2,7 +2,7 @@ syntax = "proto2";
 
 option optimize_for = LITE_RUNTIME;
 
-package ClientBuffers;
+package org.mosh4j.protocol.ClientBuffers;
 
 message UserMessage {
   repeated Instruction instruction = 1;

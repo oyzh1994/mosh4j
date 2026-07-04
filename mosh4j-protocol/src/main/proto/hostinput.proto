@@ -2,7 +2,7 @@ syntax = "proto2";
 
 option optimize_for = LITE_RUNTIME;
 
-package HostBuffers;
+package org.mosh4j.protocol.HostBuffers;
 
 message HostMessage {
   repeated Instruction instruction = 1;

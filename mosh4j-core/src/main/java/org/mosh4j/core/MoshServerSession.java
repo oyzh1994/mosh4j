@@ -9,7 +9,7 @@ import org.mosh4j.transport.TransportInstruction;
 import org.mosh4j.transport.TransportReceiver;
 import org.mosh4j.transport.TransportSender;
 
-import TransportBuffers.Transportinstruction;
+import org.mosh4j.protocol.TransportBuffers.Transportinstruction;
 
 import java.net.DatagramSocket;
 import java.net.InetSocketAddress;

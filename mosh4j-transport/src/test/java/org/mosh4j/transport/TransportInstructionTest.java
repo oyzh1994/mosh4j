@@ -1,6 +1,6 @@
 package org.mosh4j.transport;
 
-import TransportBuffers.Transportinstruction;
+import org.mosh4j.protocol.TransportBuffers.Transportinstruction;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
