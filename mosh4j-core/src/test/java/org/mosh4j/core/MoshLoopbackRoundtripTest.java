@@ -1,7 +1,7 @@
 package org.mosh4j.core;
 
-import org.mosh4j.protocol.HostBuffers.Hostinput;
-import org.mosh4j.protocol.TransportBuffers.Transportinstruction;
+import org.mosh4j.protocol.host.Hostinput;
+import org.mosh4j.protocol.transport.Transportinstruction;
 import com.google.protobuf.ByteString;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;

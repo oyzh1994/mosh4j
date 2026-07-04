@@ -2,7 +2,7 @@ syntax = "proto2";
 
 option optimize_for = LITE_RUNTIME;
 
-package org.mosh4j.protocol.TransportBuffers;
+package org.mosh4j.protocol.transport;
 
 message Instruction {
   optional uint32 protocol_version = 1;

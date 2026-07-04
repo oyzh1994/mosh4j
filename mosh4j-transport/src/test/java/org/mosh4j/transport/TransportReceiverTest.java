@@ -1,6 +1,6 @@
 package org.mosh4j.transport;
 
-import org.mosh4j.protocol.TransportBuffers.Transportinstruction;
+import org.mosh4j.protocol.transport.Transportinstruction;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.atomic.AtomicInteger;

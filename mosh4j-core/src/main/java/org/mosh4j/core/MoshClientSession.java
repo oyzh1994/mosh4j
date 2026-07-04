@@ -8,9 +8,9 @@ import org.mosh4j.terminal.SimpleFramebuffer;
 import org.mosh4j.transport.TransportInstruction;
 import org.mosh4j.transport.TransportReceiver;
 
-import org.mosh4j.protocol.TransportBuffers.Transportinstruction;
-import org.mosh4j.protocol.ClientBuffers.Userinput;
-import org.mosh4j.protocol.HostBuffers.Hostinput;
+import org.mosh4j.protocol.transport.Transportinstruction;
+import org.mosh4j.protocol.client.Userinput;
+import org.mosh4j.protocol.host.Hostinput;
 
 import com.google.protobuf.ByteString;
 import com.google.protobuf.ExtensionRegistry;
